@@ -8,10 +8,13 @@
   "lint-staged": {
     "*": "prettier --ignore-unknown --write"
   },
+  "homepage": "./",
   "scripts": {
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview",
     "test": "vitest --run",
     "test:ui": "vitest --ui",
