@@ -8,6 +8,7 @@ import EnvironmentPlugin from 'vite-plugin-environment'
 export default defineConfig({
   build: {
     sourcemap: true,
+    base:'/tree/gh-pages/',
   },
   plugins: [react(), EnvironmentPlugin(['REACT_APP_TEXT'])],
   publicDir: 'public',
