@@ -8,7 +8,7 @@
   "lint-staged": {
     "*": "prettier --ignore-unknown --write"
   },
-  "homepage": "https://gfjack.github.io/gh-pages",
+  "homepage": "https://gfjack.github.io/clzn",
   "scripts": {
     "start": "vite",
     "dev": "vite",
