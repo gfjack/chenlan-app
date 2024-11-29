@@ -1,0 +1,9 @@
+.nav-item {
+  height: 100%;
+  line-height: 4rem;
+  text-align: center;
+  width: 6rem;
+  &:hover {
+    background-color: #0095d7;
+  }
+}

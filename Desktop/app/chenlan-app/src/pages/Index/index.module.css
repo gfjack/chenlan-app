@@ -1,0 +1,15 @@
+.home-swiper {
+  .swiper-1 {
+    background: url('../../assets/imgs/bg-home1.jpg');
+  }
+  .swiper-2 {
+    background: url('../../assets/imgs/bg-home2.jpg');
+  }
+  h3 {
+    font-size: 3rem;
+    font-weight: 900;
+    position: absolute;
+    bottom: 14rem;
+    right: 14rem;
+  }
+}
